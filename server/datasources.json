@@ -1,0 +1,26 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mongoInst": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "notes_development_db",
+    "password": "",
+    "name": "mongoInst",
+    "user": "",
+    "connector": "mongodb"
+  },
+  "mongoProd": {
+    "host": "ec2-52-38-51-128.us-west-2.compute.amazonaws.com",
+    "port": 27017,
+    "url": "",
+    "database": "notes_production_db",
+    "password": "",
+    "name": "mongoProd",
+    "user": "",
+    "connector": "mongodb"
+  }
+}
